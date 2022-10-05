@@ -28,3 +28,14 @@ const bioData = [{
     }
   }
 ];
+
+// Converting to JSON
+
+const bioDataJSON = JSON.stringify(bioData);
+console.log(bioDataJSON);
+
+//For loop & While loop
+
+for(let i = 0; i <= bioData.length; i++) {
+  console.log(bioData[i]);
+}
