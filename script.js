@@ -39,3 +39,17 @@ console.log(bioDataJSON);
 for(let i = 0; i <= bioData.length; i++) {
   console.log(bioData[i]);
 }
+
+const myName = "Fortune";
+const myAge = 29;
+const nationality = "Nigeria";
+
+const myHtml = `<ul>
+    <li>${ myName}</li>
+    <li>${myAge}</li>
+    <li>${nationality}</li>
+
+    </ul>`;
+
+document.body.innerHTML = myHtml;
+console.log(myHtml);
